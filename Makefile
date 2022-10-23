@@ -19,6 +19,5 @@ clean:
 	rm -rf Tests/results/output.json
 	rm -rf Tests/results/results.html
 	rm -rf Tests/results/archive
-	rm -rf Tests/Solutions/__pycache__
-	rm -rf Tests/Solutions/__pycache__
+	rm -rf Solutions/__pycache__
 	rm -rf $(VENV)
