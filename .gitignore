@@ -1,0 +1,7 @@
+Tests/artifacts/
+Tests/results/
+venv/
+.log
+.xml
+.txt
+__pycache__
