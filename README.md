@@ -18,3 +18,26 @@
 
 # THIS IS STILL UNDER DEVELOPMENT
 
+# LeetCode - Array
+
+### About 
+
+- An array in python is defined as a container that stores the collection of items at contiguous memory locations. The items that are stored in the array should be of the same type. Python arrays are dynamic. As we know that arrays in python are mutable which means we can change the original array at any point in time.
+
+
+### How would you create an Array 
+
+- A list is an array
+
+```
+mylist = [1,2,3,4]
+```
+
+- array pakage 
+
+```
+from array import *
+
+#how you would create an array
+array()
+```
