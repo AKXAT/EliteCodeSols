@@ -9,6 +9,8 @@ $(VENV)/bin/activate: requirements.txt
 	python3 -m venv $(VENV)
 	$(PIP) install -r requirements.txt
 
+run-tests:
+	python3 -m pytest
 
 clean:
 	rm -rf __pycache__
