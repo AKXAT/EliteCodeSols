@@ -12,6 +12,8 @@ $(VENV)/bin/activate: requirements.txt
 
 clean:
 	rm -rf __pycache__
-	rm -rf *.log
-	rm -rf *.xml
+	rm -rf Tests/__pycache__
+	rm -rf Tests/artifacts/artifacts.log
+	rm -rf Tests/results/output.json
+	rm -rf Tests/results/results.html
 	rm -rf $(VENV)
