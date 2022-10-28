@@ -14,6 +14,9 @@ run-tests:
 
 clean:
 	rm -rf __pycache__
+	rm -rf Tests/artifacts/__pycache__
+	rm -rf Tests/assets/__pycache__
+	rm -rf Tests/results/__pycache__
 	rm -rf Tests/__pycache__
 	rm -rf Tests/artifacts/artifacts.log
 	rm -rf Tests/results/output.json
