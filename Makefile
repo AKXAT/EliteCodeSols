@@ -23,4 +23,7 @@ clean:
 	rm -rf Tests/results/results.html
 	rm -rf Tests/results/archive
 	rm -rf Solutions/__pycache__
+
+clean-all:
+	make clean
 	rm -rf $(VENV)
