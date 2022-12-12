@@ -47,8 +47,3 @@ class Solution:
                 result += mydict[mylist[each]]
                 each += 1
         return result
-
-
-if __name__ == "__main__":
-    Sol = Solution()
-    print(Sol.romanToInt("MCMXCIV"))
